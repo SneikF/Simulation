@@ -1,0 +1,6 @@
+set.seed(1)
+X=runif(10,5,10)
+H=((log(3*X)*sinh(X))/(X^2+X+1))
+mean(H)
+Int=(5)*mean(H)
+print(Int)

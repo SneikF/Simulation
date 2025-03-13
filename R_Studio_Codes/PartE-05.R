@@ -1,0 +1,7 @@
+set.seed(1)
+X=runif(10000,1,10)
+H=((sin(X))/X)
+mean(H)
+sd(H)
+Int=(9)*mean(H)
+print(sd(H))

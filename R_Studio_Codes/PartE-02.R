@@ -1,0 +1,6 @@
+set.seed(1)
+X=runif(10,1,10)
+H=((sin(X))/X)
+mean(H)
+Int=(9)*mean(H)
+print(Int)
